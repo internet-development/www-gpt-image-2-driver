@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# imagegen run artifacts — per-run working dirs written while images are being
+# generated (style briefs, prompts, reference packs, style caches, logs)
+_temporary/
+
+# Log files
+*.log
+
+# Rendered deliverables land in generated/.
+generated/
